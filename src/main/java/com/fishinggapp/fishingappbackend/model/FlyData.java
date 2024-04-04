@@ -1,4 +1,29 @@
 package com.fishinggapp.fishingappbackend.model;
 
-public record FlyData() {
+public record FlyData(String SerialNumber,
+                      String Name,
+                      String FlyType,
+                      String HookType,
+                      String HookSize,
+                      String BeadSize,
+                      String BeadColor,
+                      String WireType,
+                      String WireSize,
+                      String PrimaryThreadColor,
+                      String PrimaryDenier,
+                      String SecondaryThreadColor,
+                      String SecondaryDenier,
+                      String Body,
+                      String SecondaryBody,
+                      String Tail,
+                      String Wings,
+                      String Legs,
+                      String Hackle,
+                      String SecondHackle,
+                      String Antenna,
+                      String WingCase,
+                      String Parachute,
+                      String Ribbing,
+                      String RibbingSize,
+                      String Extra) {
 }
